@@ -294,7 +294,13 @@ nav ul {
     
 }
 
-
+@media(min-width: 559px){
+    .about1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}
 /* for mobile landscape */
 @media(orientation:landscape) and (min-width:820px){   
     #logo{
@@ -335,12 +341,12 @@ nav ul {
             .about1{
                 float: left;
             }
-            .button-box {
+            /* .button-box {
              
              margin-top:53rem;
              margin-left:27rem;
         
-            }
+            } */
         }
 /* for tablet landscape */
 @media(orientation:landscape) and (min-width:960px){
@@ -383,9 +389,9 @@ nav ul {
         text-align: center;
     } 
 #img2{
-    float: left;
-    width: 45%;
-    margin-top: 5%;
+    max-width: 100%;
+    max-height: auto;
+    margin-left:50px;
     }
 .button-box{
         float: right;
