@@ -461,66 +461,7 @@ nav ul {
 
     
 
-/* @media (min-width: 581px) and (max-width: 1439px) and (orientation:landscape){
 
-    #logo{
-        margin-left:58px;
-    }
-    #menu{
-        display: none;
-
-    }
-    nav ul {
-      display: flex;
-      list-style-type: none;
-      margin-left: 50rem;
-    }
-    nav ul a{
-        text-decoration: none;
-        padding: 10px;
-        margin: 10px;
-        float: right;
-        font-weight: bold;
-        font-size: 18px;
-        color:black;
-    } 
-     .box-container figure{
-        margin-top: 20px;
-        display: flex;
-        gap: 1em;
-      } 
- 
- .box-item1, .box-item2,.box-item3 {
-    width: 33%;
-    }
-#vedio-item1 video{
-    background-size: cover;
-     margin-left: 20%; 
-    width:900px ;
-    } 
- #vedio-item1 h2 {
-        text-align: center;
-    } 
-#img2{
-    float: left;
-    width: 45%;
-    margin-top: 5%;
-    }
-.button-box{
-        float: right;
-        width: 45%;
-    }
-.about1 h2{
-  text-align: center;
-    margin: 40px;
-}
-.button-box h3{
-    font-size: 20px;
-    color: black;
-}
-
-    
-} */
 
 
 
