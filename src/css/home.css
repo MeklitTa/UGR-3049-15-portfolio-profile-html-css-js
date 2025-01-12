@@ -1,0 +1,578 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+header nav{
+
+ 
+display: flex; 
+top: 0;
+left: 0;
+position: fixed;
+justify-content: flex-start;
+padding-left: 10px;
+width: 100%;   
+text-align: center; 
+ padding-top:20px ;
+background-color: #054ECC;
+font-family: "poppins";
+height: 107px;
+z-index: 1;
+
+
+}
+nav ul a{
+    color:white;
+}
+
+#logo{
+    margin-top:27px;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 122px; 
+    margin-top: 0.5rem;  
+    border: none;        
+    margin-left: 5px;  
+}
+#logo img{
+    width: 100%;
+    
+}
+#menu{
+    margin-top:2px;
+    width: 3rem;
+    height: 3rem;
+    justify-content: end;
+    margin-left:285px;
+    
+   
+}
+#menu:hover{
+    
+    background-color: #add8e6;
+   
+    
+}
+.hov:active{
+    background-color:#48AAFF;
+    font-size: 20px;
+    background-color:#ADD8E6;
+}
+.hov:active{
+    font-size: 20px; 
+    color: #054ECC; 
+
+}
+.hov:focus{
+    background-color: #B5DDFF;
+
+
+}
+
+.sec{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+}
+.sec img{
+    width: 100%;
+}
+.sec img:hover{
+    transform:translateX(10PX);
+    transition: transform 0.6s;
+}
+.sec1 h1, .sec h3{
+    line-height: 30px;
+}
+.sec1{
+    margin-top: 29px;
+    padding: 10px;
+    
+   
+}
+.sec1 p, .sec1 .but-both{
+    width: 340.92px;
+    
+}
+.sec1 h1, .sec h3,.sec1 p, .sec1 .but-both{
+  
+  text-align: center;
+    margin-left:66px ;
+    padding: 2px;
+
+}
+.sec1 h1{
+    margin-top: 5rem;
+    color: blue;
+    font-size: 48px;
+    font-weight: bold;  
+}
+.sec1 h3{
+    color: blue;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.2;   
+
+}
+.sec1 p{
+    color:black;
+    line-height: 22px;
+
+}
+.but-both {
+    margin-top: 0;
+
+    
+}
+.main{
+   
+    margin-top: 10px;
+}
+.main a{
+    
+    color:blue;
+    border: 2px solid rgb(45, 16, 176);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 100px 50px 50px 50px;
+    border: none;
+  text-align: center;
+  background-color:#B5DDFF; 
+
+  margin-bottom: 100px;
+  transition: .5s;
+  }  
+  .main a:hover{
+    background-color: transparent;
+    border: 1px solid rgb(45, 16, 176);
+  }
+  #but1 a{
+    background-color:#054ECC;
+    color:white;
+    border: 2px solid rgb(45, 16, 176);
+    border-radius: 60px 100px;
+     padding: 5px 25px;/* padding: 10px 60px; * for desktop*/
+    letter-spacing: 1px;
+   align-items: center;
+   font-weight: bold;
+   text-decoration: none;
+   justify-content: center;
+   transition: .5s;
+   z-index:100%;
+   margin-top: 190px;
+   
+}
+#but1 a:hover{
+    background-color:transparent;
+    color: blue;
+
+}   /*  for mobile portrate */
+
+@media (max-width: 558px) {
+  #logo{
+    margin-left: 30px;
+    margin-top: 15px; 
+    width: 3rem;
+    height: 3rem;
+    display: inline-block;
+  }
+  #menu{
+    margin-top: 15px; 
+  }
+    nav ul {
+        display: none;
+    }
+    .sec1 h1, .sec1 h3 {
+        text-align:left;
+        font-family:"poppins"; 
+        font-weight: bold;
+        padding: 2px;
+       
+    }
+    .sec h1{
+        font-size: 32px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .sec h3{
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: bold;
+    }
+    .sec1 p {
+        font-size: 16px; 
+        text-align:justify;
+        padding: 5px;
+        line-height: 25px;
+    }
+    .but-both main, .but-both #but1 {
+        padding: 10px;  
+    }
+  .but-both{
+    margin-bottom: 10px;
+  }
+    .image-box {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+        width: 100%;
+        margin: 0px ;
+    }
+    .img1 { 
+        margin-left:10px;
+       
+        width: 100%; 
+        max-width: 600px;
+        max-height: 400px; 
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }}
+
+/* for tablet portrate  */
+@media (min-width: 559px) and (max-width: 820px) {
+
+     #logo{
+        margin-left: 45px;
+        margin-top: 15px; 
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+      }
+      #menu{
+        margin-top: 15px; 
+       margin-left: 30rem;}
+nav ul {
+    display: none;
+        }
+.sec1 h1, .sec1 h3 {
+            text-align:left;
+            font-family:"poppins"; 
+            font-weight: bold;
+            padding: 2px;
+            margin-left: left;    
+        }
+        .sec h1{
+            font-size: 32px;
+            line-height: 30px;
+            font-weight: bold;
+    
+        }
+        .sec h3{
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        .sec1 p {
+            font-size: 16px; 
+            text-align:justify;
+            padding: 5px;
+            width: 600px;
+            line-height: 25px;
+        }
+        .but-both main, .but-both #but1 {
+            padding: 10px;  
+        }
+      .but-both{
+        display: flex;
+        margin-bottom: 10px;
+      }
+        .image-box {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+            width: 100%;
+            margin: 0px ;
+           
+        }
+        .img1 { 
+            margin-left: 1rem;
+            width: 100%; 
+            float: left;
+            max-width: auto;
+            max-height: 400px; 
+             margin: 0 auto; 
+            margin-bottom: 20px;
+        }
+}
+/* for mobile landscape */
+@media(orientation:landscape) and (min-width:821px){
+    #logo{
+        margin-left: 45px;
+        margin-top: 15px; 
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+      }
+      #menu{
+        margin-top: 15px; 
+       margin-left: 35rem;}
+nav ul {
+    display: none;
+        }
+.sec1 h1, .sec1 h3 {
+            text-align:left;
+            font-family:"poppins"; 
+            font-weight: bold;
+            padding: 2px;
+            margin-left: left;    
+        }
+        .sec h1{
+            font-size: 32px;
+            line-height: 30px;
+            font-weight: bold;
+    
+        }
+        .sec h3{
+            font-size: 24px;
+            line-height: 30px;
+            font-weight: bold;
+        }
+        .sec1 p {
+            font-size: 16px; 
+            text-align:justify;
+            padding: 5px;
+            width: 600px;
+            line-height: 25px;
+        }
+        .but-both main, .but-both #but1 {
+            padding: 10px;  
+        }
+      .but-both{
+        display: flex;
+        margin-bottom: 10px;
+      }
+        .image-box {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+            width: 100%;
+            margin: 0px ;
+    
+           
+        }
+        .img1 { 
+            margin-left: 1rem;
+            width: 100%; 
+        
+            max-width:600px;
+            max-height: 400px; 
+             margin: 0 auto; 
+            margin-bottom: 20px;
+        }
+}
+/* tablet land scape
+ */
+ @media(orientation:landscape) and (min-width:960px){
+ 
+        #logo{
+            margin-left:58px;
+        }
+        
+        
+        #menu{
+            display: none;
+    
+        }
+        nav ul {
+          display: flex;
+          list-style-type: none;
+          margin-left: 50rem;
+        }
+        nav ul a{
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+            float: right;
+            font-weight: bold;
+            font-size: 18px;
+            
+        }
+    .sec{ 
+            display: flex;
+             flex-direction: row; 
+            gap: 2em;
+    
+        }
+    .sec1{
+        width: 800px;
+        height: auto;   
+        }
+       .sec1 h1{
+        margin-top: 8rem;
+        text-align: left;
+        line-height: 30px;
+        padding: 5px;
+        
+       }
+       .sec1 h3{
+        text-align: left;
+        line-height: 30px;
+    
+       }
+        
+       .sec1 p{
+        font-size: 20px;
+        line-height: 22;
+        text-align:left;
+        line-height: 22px;
+        padding: 10px;
+        width: 500px;
+       }
+      
+       .sec1 {
+        padding: 10px;
+      
+        margin: 80px 0px 0px 20px;}
+    .but-both{
+            display:flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-size: 20px;
+            
+    
+        }
+    .image-box{
+        margin-top: 10rem;
+        width: 600px;
+        
+            
+        }
+        .img1 { 
+            max-width: 600px; 
+            max-height: 500px; 
+            margin: 0 auto;
+            display: block;
+            margin-bottom: 20px;
+        }
+    
+    #but1{
+        margin-top: 25px;
+         text-align:left;
+        }
+        #but1 a{
+           padding: 10px;
+          
+        }
+        .main{
+            margin-top: 25px;
+        }
+        .main a{
+            padding: 6px;
+           
+        }
+    }
+
+ 
+
+/* for desktop */
+
+@media (min-width:1440px) {
+    #logo{
+        margin-left:58px;
+    }
+    
+    
+    #menu{
+        display: none;
+
+    }
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      margin-left: 50rem;
+    }
+    nav ul a{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+.sec{ 
+        display: flex;
+         flex-direction: row; 
+        gap: 2em;
+
+    }
+.sec1{
+    width: 800px;
+    height: auto;   
+    }
+   .sec1 h1{
+    margin-top: 8rem;
+    text-align: left;
+    line-height: 30px;
+    padding: 5px;
+    
+   }
+   .sec1 h3{
+    text-align: left;
+    line-height: 30px;
+
+   }
+    
+   .sec1 p{
+    font-size: 20px;
+    line-height: 22;
+    text-align:left;
+    line-height: 22px;
+    padding: 10px;
+    width: 500px;
+   }
+  
+   .sec1 {
+    padding: 10px;
+  
+    margin: 80px 0px 0px 20px;}
+.but-both{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 10px;
+        font-size: 20px;
+        
+
+    }
+.image-box{
+    margin-top: 10rem;
+    width: 600px;
+    
+        
+    }
+    .img1 { 
+        max-width: 600px; 
+        max-height: 500px; 
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+#but1{
+    margin-top: 25px;
+     text-align:left;
+    }
+    #but1 a{
+       padding: 10px;
+      
+    }
+    .main{
+        margin-top: 25px;
+    }
+    .main a{
+        padding: 6px;
+       
+    }
+}
+
+
+

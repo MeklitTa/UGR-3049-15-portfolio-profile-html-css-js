@@ -6,63 +6,58 @@
         <title>Meklit's personal Portfolio website</title>
         <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
         <link rel="icon" type="image/png" href="images/logo.png">
+        <link rel="stylesheet" href="css/adventure.css">
+        <script src="js/adventure.js"></script>
     </head>
 <body>
     <header >
         <nav>
             <figure>
-                <a href="home.html"><img id="logo" src="images/Logo1.png" alt="Logo"></a>
+                <a href="home.html"><img id="logo" src="images/Logo.png" alt="Logo"></a>
             </figure>
             <img id="menu" src="images/list.png" alt="menu-button">   
         <ul>
-            <li><a href="home.html">Home</a></li>
-            <li><a href="aboutme.html">About Me</a></li>
-            <li><a href="education.html">Education</a></li>
-            <li><a href="adventure.html">Adventure</a></li>
-            <li><a href="contact.html">Contact </a></li>
+            <li><a href="home.html" class="hov">Home</a></li>
+            <li><a href="aboutme.html" class="hov">About Me</a></li>
+            <li><a href="education.html" class="hov">Education</a></li>
+            <li><a href="adventure.html" class="hov">Adventure</a></li>
+            <li><a href="contact.html"class="hov">Contact </a></li></ul>
+        
         </ul>
     </nav>
 </header>
     <main class="travel-box">
         <section class="travel-item">
-            <figure>
-            <article class="travel2 tabadv" >
-                <img src="images/travel2.png" alt="Lalibela Church" class="timage">
-                <h3>Lalibela Church</h3>
-                <p> On my journey to Lalibela, I was captivated by the breathtaking
-                    rock-hewn churches, each a testament to Ethiopia's rich Christian 
-                    heritage. The intricate carvings and ancient history resonated deeply, 
-                    creating an atmosphere of spiritual reverence. Standing in this sacred place, 
-                    I felt a profound connection to the past and the enduring faith of its people.</p>
-            </article>
-            <article class="travel3 tabadv">
-                <img src="images/travel3.png" alt="Gonder Castle" class="timage">
-                <h3>Gonder Castle</h3>
-                <p>As I explored the enchanting Gonder Castle in Ethiopia,
-                    I was awestruck by its impressive stone walls and intricate 
-                    architectural details. The castle, a testament to the grandeur 
-                    of Ethiopia's royal past, transported me back in time. Wandering 
-                    through its historic halls, I felt a deep connection to the rich 
-                    cultural heritage that surrounds this remarkable site.</p>
-            </article>
-            <article class="travel4 tabadv1">
-                <img src="images/travel4.jpg" alt="Holy Trinity Church" class="timage">
-                <h3>Holy Trinity Church</h3>
-                <p>During my journey to the Holy Trinity Church in Addis Ababa, 
-                    I was captivated by its stunning stained glass windows and 
-                    majestic architecture. The church, a symbol of Ethiopian 
-                    Orthodox Christianity, offered a serene space for reflection and prayer.
-                    The rich history and vibrant atmosphere made it a memorable highlight of my visit</p>
-                
-            </article>   
-        </figure>
+            
+                <div class="etry"> 
+                    <article class="travel2 tabadv" >
+                      <img src="images/travel2.png" alt="Lalibela Church" class="timage">
+                      <h3>Lalibela Church</h3>
+                      <p> On my journey to Lalibela, I was captivated 
+                        by the breathtaking rock-hewn churches, each a testament to Ethiopia's 
+                        rich Christian heritage. The intricate carvings and ancient history resonated deeply, creating an atmosphere of spiritual reverence. Standing in this sacred place, 
+                        I felt a profound connection to the past and the enduring faith of its people.</p>
+                    </article>
+                    <article class="travel3 tabadv">
+                      <img src="images/travel3.png" alt="Gonder Castle" class="timage">
+                      <h3>Gonder Castle</h3>
+                      <p>As I explored the enchanting Gonder Castle in Ethiopia, I was awestruck by its impressive stone walls and intricate architectural details. The castle, a testament to the grandeur of Ethiopia's royal past, transported me back in time. Wandering through its historic halls, I felt a deep connection to the rich cultural heritage that surrounds this remarkable site.</p>
+                    </article>
+                    <article class="travel4 tabadv1">
+                      <img src="images/travel4.jpg" alt="Holy Trinity Church" class="timage">
+                      <h3>Holy Trinity Church</h3>
+                      <p>During my journey to the Holy Trinity Church in Addis Ababa, I was captivated by its stunning stained glass windows and majestic architecture. The church, a symbol of Ethiopian Orthodox Christianity, offered a serene space for reflection and prayer. The rich history and vibrant atmosphere made it a memorable highlight of my visit.</p>
+                    </article>
+                </div>
+                  
 
 <div id="travel-video1" class="tabadv1">
-    <h6>Destinations I Have Explored</h6>
-    <video controls>
+    <h2>Destinations I Have Explored</h2>
+    <video controls id="vid1">
         <source src="videos/hobby5.mp4" type="video/mp4"> this browse does not support HTML5 video 
-    </video></div></section>
-
+    </video></div>
+</section>
+<br>
     <section class="tabelpart">
         <div class="tb1">
     <h2>Notable Travels and Visits</h2>
@@ -98,10 +93,10 @@
         </tbody>   
     </table></div>
 <div class="memory">
-        <h2>Memorable Events</h2>
+         <h2>Memorable Events</h2>
 <div class="memoboth ">
     <div class="memo1 ">
-            <img src="images/photo4.jpg" alt="memorabel place1" class="places">
+            <img src="images/photo4.jpg" alt="meskel festivals" class="places">
             <div class="memo2">
                 <h4> Meskel Festival</h4>
                 <p>Meskel is one of the most remarkable festivals in Ethiopia, 
@@ -114,14 +109,14 @@
         </div>
 </div>
 <div class="memoboth " > 
-    <div class="memo1"><img src="images/photo3.jpg" alt="memorable place2" class="places">
+    <div class="memo1"><img src="images/photo3.jpg" alt="birthday Party" class="places">
     <div class="memo2">   <h4>BirthDay Party </h4>
         <p>  My friend's birthday  celebration was truly memorable, 
             filled with laughter and joy. Surrounded 
             by close friends and family, we shared special
             moments and enjoyed delicious food. It was a day
             that left me with lasting memories of love
-            and happiness.</p>
+            and happiness.</p>    
     </div>  
         </div>
 </div>

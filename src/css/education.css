@@ -1,0 +1,507 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Times New Roman', Times, serif;  
+}
+header nav{
+   
+display: flex; 
+top: 0;
+left: 0;
+position: fixed;
+justify-content: flex-start;
+padding-left: 10px;
+width: 100%;   
+text-align: center; 
+ padding-top:20px ;
+background-color: #054ECC;
+font-family: "poppins";
+height: 107px;
+z-index: 1;
+}
+#logo{
+    margin-top:27px;
+    width: 3rem;
+    height: 3rem;
+    margin-left: 122px; 
+    margin-top: 0.5rem;  
+    border: none;        
+    margin-left: 5px;  
+}
+nav ul a{
+    color:white;
+}
+#logo img{
+    width: 100%;   
+}
+#menu{
+    margin-top:2px;
+    width: 3rem;
+    height: 3rem;
+    justify-content: end;
+    margin-left:285px;
+    
+}
+#menu:hover{
+     background-color: #add8e6;   
+}
+.hov:active{
+    background-color:#48AAFF;
+    font-size: 20px;
+    background-color:#ADD8E6;
+}
+.hov:active{
+    font-size: 20px; 
+    color: #054ECC; 
+
+}
+.hov:focus{
+    background-color: #B5DDFF;
+
+
+}
+
+.certificates img{
+  width: 100%;
+   height: 100% ;
+
+}
+.main3 h3{
+    margin:3rem;
+    padding: 10px;
+    font-size: 24px;
+}
+
+
+.educsec{
+   margin:7rem 25px 0px;
+   justify-content: center; 
+}
+.educsec h2{
+    padding: 5px; 
+    color:#054ECC ; 
+}
+
+.educsec p, .img3{
+   
+    padding: 10px;
+    line-height: 20px;
+    text-align: justify;  
+     
+} 
+#next{
+    width: 3rem;
+    height: 3rem;
+     border: 1px solid black;
+    margin-left:25px;
+    padding: 10px;
+    border-radius:25px;
+    margin-bottom: 10px;
+}
+
+.img3{
+    width: 500px;
+    display: flex;
+    height: 281px;
+    justify-content: center;
+    text-align: center; 
+    display: flex;
+    justify-content: space-around;
+    height: 281px;
+    
+
+}
+.main1{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;/*use this*/
+    align-items: center;
+    background-size:cover;
+    border-radius: 15px;
+
+}
+.main2{
+    width: 500px;
+    overflow: hidden;
+    position: relative;
+   
+}
+.project img{
+    width: 100%;
+    display: block;
+    margin:auto;  
+}
+.main3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0; 
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0;
+    transition: 0.6s;  
+
+}
+.main3:hover{
+    opacity: 1;
+}
+.main3 h3{
+    font-size: 45px;
+    color: #ffe100;
+    margin-bottom: 15px;
+    
+}
+.main3 p{
+    font-size:19px ;
+    color: #fff;
+    
+}
+.main3 > *{
+    transform:translateY(20px);
+    transition: transform 0.6s;
+}
+.main3:hover > *{
+    transform: translateY(0px);
+    
+}
+#next:hover{
+    background-color:rgb(221, 220, 220);
+}
+
+.Background-contanier{
+    width: 100%;
+    height: auto; 
+    padding:0.4rem;
+    border-radius:12px;
+    margin-left: 10px;   
+    margin-bottom:6rem ;
+}
+
+.item-box img{
+    border-radius: 50%;
+    width:6rem;
+    float: left;
+    border: 1px solid black;
+
+}
+
+.Background-item{
+    padding:10px;
+    background-color:#EDF7FF;
+    border-radius:15px;
+    margin:10px;  
+
+}
+.Background-item p{
+    padding-top: 10px; 
+}
+.item1 {
+    
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    color: #054ECC;
+}
+.Background-item h6{
+    padding-top: 3rem;
+}
+.Background-item1{
+    margin-top: 10px;
+    height: 300px;
+    margin: 30px; 
+    border: none; 
+}
+.maybe{
+    width: 450px;
+    height: 250px ;
+  
+}
+.maybe img{
+   max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+}
+.item-box:hover img{
+    padding-top: 10px;
+    border: none;
+    
+}
+
+.containers figcaption{
+
+margin: 10px;
+text-align: center;
+font-size: 18px;
+}
+footer {
+    padding: 20px;
+    font-size: 20px;
+    width: 100%;
+    background-color:#054ECC;
+    height: 198px;
+    
+ }
+ .main-container{
+     display: flex;
+    justify-content:space-around; 
+ }
+ .container1{
+   padding: 20px;
+   list-style-type:none;
+   color: white;
+ }
+ .container1 h3{
+    padding: 5px;
+    color: white;
+ }
+ .container1 ul  {
+    list-style-type:none;
+    text-decoration: none;
+    color: white;
+ }
+ #copy1{
+    padding:1rem;
+    text-align: center;
+    color: white;
+}
+.bx{
+    color: black;
+}
+
+
+ /*for mobile portrait  */
+
+@media (max-width:558px) {
+    
+    #menu{
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+    }
+
+}
+/* for tablet portrate  */
+@media (min-width: 559px) and (max-width: 960px) {
+    #menu{
+        display: block;
+        margin-left:27rem}
+    }
+
+    nav ul {
+        display: none;
+    }
+/* for mobile landscape */
+@media(orientation:landscape) and (max-width:821px){
+    #menu{
+        display: block;
+        margin-left: 35rem;}
+    }
+    #logo{
+        margin-left: 45px;
+        margin-top: 15px; 
+        width: 3rem;
+        height: 3rem;
+        display: inline-block;
+      }
+
+    nav ul {
+        display: none;
+    }
+    
+/* for tablet landscape */
+@media(orientation:landscape) and (min-width:960px){
+    #logo{
+        margin-left:58px;
+    }
+    
+    
+    #menu{
+        display: none;
+
+    }
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      margin-left: 50rem;
+    }
+    nav ul a{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+    .parts{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+
+    }
+    .main1{
+      
+         justify-content: flex-start;
+        margin-left: 10px;
+        max-width: 500px;
+        border: 1px solid black;
+        
+
+    }
+   
+    .certificates
+    {
+        display: flex;
+    }
+    .project{
+       display: flex; 
+       gap: 2rem; 
+    }
+    .project1 {
+        margin-top: 1rem;
+        padding: 10px;
+        width: 800px;
+        
+    }
+    .project1 p,.parts p{
+        font-size: 20px;
+        line-height: 22;
+        text-align:left;
+        line-height: 22px;
+        padding: 10px;
+       
+       }
+       .project1 h2{
+        font-size: 30px ;
+        font-weight: bold;
+    }
+    #next{
+        margin-top: 1rem;
+    }
+.maybe{
+    width: 500px;
+   height: 350px ;
+}
+  .containers{
+  
+    display: flex;
+    margin-top: 2rem;
+  } 
+  .Background-contanier{
+margin-top: 2rem;
+  }
+  .Background-contanier p{
+    font-size: 18px;
+  }
+  .Background-item{
+    margin: 10px;
+  }
+  .Background-item1 figcaption{
+    font-style: italic;
+    font-weight: bold;
+  }
+
+}
+
+/* desktop */
+@media (min-width:1440px) {
+    #logo{
+        margin-left:58px;
+    }
+    
+    
+    #menu{
+        display: none;
+
+    }
+    nav ul {
+      display: flex;
+      list-style-type: none;
+      margin-left: 50rem;
+    }
+    nav ul a{
+        text-decoration: none;
+        padding: 10px;
+        margin: 10px;
+        float: right;
+        font-weight: bold;
+        font-size: 18px;
+        
+    }
+    .parts{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 4rem;
+
+    }
+    .main1{
+      
+         justify-content: flex-start;
+        margin-left: 10px;
+        max-width: 500px;
+        border: 1px solid black;
+        
+
+    }
+   
+    .certificates
+    {
+        display: flex;
+    }
+    .project{
+       display: flex; 
+       gap: 2rem; 
+    }
+    .project1 {
+        margin-top: 1rem;
+        padding: 10px;
+        width: 800px;
+        
+    }
+    .project1 p,.parts p{
+        font-size: 20px;
+        line-height: 22;
+        text-align:left;
+        line-height: 22px;
+        padding: 10px;
+       
+       }
+       .project1 h2{
+        font-size: 30px ;
+        font-weight: bold;
+    }
+    #next{
+        margin-top: 1rem;
+    }
+.maybe{
+    width: 500px;
+   height: 350px ;
+}
+  .containers{
+  
+    display: flex;
+    margin-top: 2rem;
+  } 
+  .Background-contanier{
+margin-top: 2rem;
+  }
+  .Background-contanier p{
+    font-size: 18px;
+  }
+  .Background-item{
+    margin: 10px;
+  }
+  .Background-item1 figcaption{
+    font-style: italic;
+    font-weight: bold;
+  }
+}
