@@ -72,16 +72,7 @@ nav ul a{
 
     
 }
-/* .box-container{
-    margin-top: 20px;
-    display: flex; applay in thr desktop
-    gap: 1em;
-   
-    display: flex; 
-    gap: 1em;  
- 
-    
-} */
+
 
 .box-item1, .box-item2,.box-item3 {
     overflow: hidden;
@@ -92,9 +83,7 @@ nav ul a{
     margin: 20px;
     text-align: center;
     justify-content: center;
-    /* height: 443.24; */
-    /* width: 502
-    ; */
+    
   
 }
 .box-item1 p, .box-item2 p,.box-item3 p{
